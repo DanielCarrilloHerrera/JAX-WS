@@ -4,4 +4,9 @@
      name="PersonServiceImpl"
      implementation="com.journaldev.jaxws.service.PersonServiceImpl"
      url-pattern="/personWS"/>
+   
+  <endpoint
+     name="ObjetoServiceImpl"
+     implementation="com.journaldev.jaxws.service.ObjetoServiceImpl"
+     url-pattern="/objetoWS"/>    
 </endpoints> 
